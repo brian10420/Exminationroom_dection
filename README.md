@@ -4,17 +4,8 @@
 ```mermaid
 %%{
   init: {
-		"theme": "base",
-    "themeVariables": {
-      "darkMode": "true", 
-      "background":"#202020",
-      "primaryColor": "#233B48",
-      "primaryTextColor": "#fff",
-      "primaryBorderColor": "#ADC6CD",
-      "lineColor": "#ADC6CD",
-      "secondaryColor": "#ADC6CD",
-      "tertiaryColor": "#1C1C1C"
-    }
+		'theme': 'base', 'themeVariables': { 'primaryColor': '#ffffff', 'primaryBorderColor': '#333333', 'lineColor': '#333333', 'fontSize': '16px', 'fontFamily': 'Times New Roman'}
+
   }
 }%%
 graph LR

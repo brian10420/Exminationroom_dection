@@ -2,12 +2,7 @@
 
 ## Structure
 ```mermaid
-%%{
-  init: {
-		'theme': 'base', 'themeVariables': { 'primaryColor': '#ffffff', 'primaryBorderColor': '#333333', 'lineColor': '#333333', 'fontSize': '16px', 'fontFamily': 'Times New Roman'}
-
-  }
-}%%
+%%%%{init: {'theme': 'default', 'themeVariables': {'background': '#ffffff', 'primaryColor': '#ffffff', 'primaryBorderColor': '#333333', 'lineColor': '#333333', 'fontSize': '16px', 'fontFamily': 'Times New Roman', 'primaryBorderWidth': '3px'}}}%%
 flowchart LR
     classDef stage1 fill:#ffffff,stroke:#ff0000,stroke-width:3px;
     classDef stage2 fill:#ffffff,stroke:#00ff00,stroke-width:3px;

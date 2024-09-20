@@ -41,6 +41,6 @@ def process_subdirectories(base_input_folder, base_output_folder, mtcnn):
         crop_faces(input_subdir, output_subdir, mtcnn)
 
 # Example usage
-base_input_folder = r'D:\NCUE_lab\Shuffelnet_detection\Students_ori'
-base_output_folder = r'D:\NCUE_lab\Shuffelnet_detection\Students_L_face'
+base_input_folder = r'D:\NCUE_lab\Data\Classificaiton\Students_Picture'
+base_output_folder = r'D:\NCUE_lab\Data\Classificaiton\Students_L_training'
 process_subdirectories(base_input_folder, base_output_folder, mtcnn)
